@@ -20,3 +20,6 @@ members = [
     "samples/event-client",
     "tools/certificate-creator"
 ]
+exclude = [
+    "lib/src/core/fuzz",
+]
